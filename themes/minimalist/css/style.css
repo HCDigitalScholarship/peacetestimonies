@@ -692,7 +692,8 @@ footer {
 /* -------------------------------------------------------------------------*/
 /* Headings */
 h1, h2, #item-filters .collection, h3, h4, h5, h6 {
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  /*font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;*/
+  font-family:'Special Elite', cursive;
   font-weight: normal;
   line-height: 36px;
   padding: .5em 0;
