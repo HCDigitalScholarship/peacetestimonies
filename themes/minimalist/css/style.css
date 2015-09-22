@@ -23,6 +23,12 @@ body {
   margin: 0;
 }
 
+/*attempt to change header font -mh*/
+header {
+  font-family: 'Special Elite', cursive;
+}
+
+
 /* HTML5 display definitions
    ========================================================================== */
 /**
