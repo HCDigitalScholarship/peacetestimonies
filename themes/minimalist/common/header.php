@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo get_html_lang(); ?>">
 <head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Special+Elite" />
     <meta charset="utf-8">
     <?php if ( $description = option('description')): ?>
     <meta name="description" content="<?php echo $description; ?>" />

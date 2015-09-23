@@ -23,14 +23,18 @@ body {
   margin: 0;
 }
 
-/*attempt to change header font -mh*/
-header {
+/*attempt to change header and navbar font -mh*/
+header,
+button {
         font-family: 'Special Elite';
-	font-size: 23px;
 	font-style: normal;
 	font-variant: normal; 
 }
-
+.nav-item {
+	font-family: 'Special Elite';
+        font-style: normal;
+        font-variant: normal;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -239,7 +243,15 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-button,
+
+button {
+color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 3 */
+ font-size: 12px;
+}
+/*button, mh commented this out and added above*/
 input,
 optgroup,
 select,
@@ -640,7 +652,7 @@ body {
   width: auto;
   padding: .5em;
   border: 1px blue dashed;
-  color: #BE75CB;
+  color: #db2929;
 }
 
 .intro {
@@ -682,13 +694,13 @@ blockquote {
   border: 0;
   display: inline;
 }
-.view-items-link a:hover {
-  background-color: #684B98;
+.view-items-link a:hover {p
+  background-color: #000000; /* #684B98*/
   color: white;
   text-decoration: none;
 }
 .view-items-link a:active {
-  background-color: #BE75CB;
+  background-color: #000000;
 }
 
 #outputs {
@@ -753,13 +765,13 @@ h6 {
 }
 #site-title a {
   text-decoration: none;
-  color: #5C3F8D;
+  color:#000000;/* #5C3F8D;*/
 }
 
 /* -------------------------------------------------------------------------*/
 /* Links */
 a {
-  color: #684B98;
+  color:#000000; /* #684B98*/
   text-decoration: none;
 }
 a:visited {
@@ -772,7 +784,7 @@ a:hover {
   color: #c170d0;
 }
 a:active {
-  color: #BE75CB;
+  color: #000000;
 }
 a:hover {
   text-decoration: underline;
@@ -886,7 +898,7 @@ a:hover {
 .pagination .pagination_previous a:hover,
 .pagination .previous-page a:hover,
 .pagination .next-page a:hover {
-  background-color: #684B98;
+  background-color:#000000; /* #684B98;*/
   color: white;
   text-decoration: none;
 }
@@ -894,7 +906,7 @@ a:hover {
 .pagination .pagination_previous a:active,
 .pagination .previous-page a:active,
 .pagination .next-page a:active {
-  background-color: #BE75CB;
+  background-color: #db2929;
 }
 
 .pagination_next a,
@@ -961,12 +973,12 @@ a:hover {
   border: 0;
 }
 .item-pagination .next a:hover, .item-pagination .previous a:hover {
-  background-color: #684B98;
+  background-color:#000000;/* #684B98;*/
   color: white;
   text-decoration: none;
 }
 .item-pagination .next a:active, .item-pagination .previous a:active {
-  background-color: #BE75CB;
+  background-color: #db2929;
 }
 
 #sort-links {
@@ -1024,7 +1036,7 @@ a:hover {
   padding: 1em 0 1em 1em;
 }
 #top-nav li a:hover {
-  background-color: #684B98;
+  background-color:#000000;/* #684B98;*/
   color: white;
   text-decoration: none;
 }
@@ -1033,7 +1045,7 @@ a:hover {
 }
 #top-nav li a.open {
   color: white;
-  background-color: #684B98;
+  background-color:#000000; /* #684B98;*/
 }
 #top-nav .sub-nav {
   display: none;
@@ -1051,7 +1063,7 @@ a:hover {
   padding: 0;
 }
 #top-nav .sub-nav.open li a {
-  color: #684B98;
+  color:#000000; /* #684B98;*/
   padding: 1em;
   border-bottom: 1px solid white;
 }
@@ -1122,14 +1134,14 @@ button,
 input[type=submit]:hover,
 button:hover,
 .button:hover {
-  background-color: #684B98;
+  background-color:#000000; /* #684B98;*/
   color: white;
   text-decoration: none;
 }
 input[type=submit]:active,
 button:active,
 .button:active {
-  background-color: #BE75CB;
+  background-color: #db2929;
 }
 
 .button:focus {
@@ -1158,7 +1170,7 @@ button:active,
   position: absolute;
   top: 0;
   text-align: center;
-  color: #684B98;
+  color:#000000; /* #684B98;*/
 }
 #search-container .show-advanced:hover,
 #search-container button:hover {
@@ -1495,12 +1507,12 @@ body.files .item-file {
   display: initial;
 }
 #simple-pages-breadcrumbs a:hover {
-  background-color: #684B98;
+  background-color:#000000; /* #684B98;*/
   color: white;
   text-decoration: none;
 }
 #simple-pages-breadcrumbs a:active {
-  background-color: #BE75CB;
+  background-color: #db2929;
 }
 
 /* -------------------------------------------------------------------------*/
@@ -1590,7 +1602,7 @@ body.files .item-file {
 }
 #exhibit-pages.full .current-page {
   display: block;
-  background-color: #BE75CB;
+  background-color: #db2929;
   padding: .5em;
   color: white;
 }
@@ -1625,12 +1637,12 @@ body.files .item-file {
   margin-bottom: 0;
 }
 #exhibit-pages.full #secondary-nav ul li a:hover {
-  background-color: #684B98;
+  background-color:#000000; /* #684B98; */
   color: white;
   text-decoration: none;
 }
 #exhibit-pages.full #secondary-nav ul li a:active {
-  background-color: #BE75CB;
+  background-color: #db2929;
 }
 #exhibit-pages.full #secondary-nav > li:nth-child(2) {
   display: block;
@@ -1681,12 +1693,12 @@ body.files .item-file {
   border: 0;
 }
 #exhibit-child-pages .exhibit-child-nav li a:hover {
-  background-color: #684B98;
+  background-color:#000000; /* #684B98; */
   color: white;
   text-decoration: none;
 }
 #exhibit-child-pages .exhibit-child-nav li a:active {
-  background-color: #BE75CB;
+  background-color: #db2929;
 }
 #exhibit-child-pages .exhibit-child-nav li a:before {
   content: "\2014\0020";
@@ -1718,7 +1730,7 @@ body.files .item-file {
 #exhibit-page-navigation .current-page {
   clear: both;
   display: block;
-  background-color: #684B98;
+  background-color:#000000; /* #684B98;*/
   padding: .5em 0;
   color: white;
   margin-top: .5em;
@@ -1749,7 +1761,7 @@ body.files .item-file {
   /* -------------------------------------------------------------------------*/
   /* Layout */
   #site-title {
-    width: 57.62712%;
+    width:90%;   /*changeed from 57.62712% -mh */
     float: left;
     margin-right: 1.69492%;
     display: inline;
@@ -1898,10 +1910,10 @@ body.files .item-file {
     padding: .5em;
   }
   #top-nav .nav-menu a:link, #top-nav .nav-menu a:visited {
-    color: #684B98;
+    color:#000000; /* #684B98;*/
   }
   #top-nav .nav-menu a:hover, #top-nav .nav-menu a:focus {
-    background-color: #684B98;
+    background-color:#000000; /* #684B98;*/
   }
   #top-nav .nav-menu .nav-item {
     list-style: none;
@@ -1924,7 +1936,7 @@ body.files .item-file {
     padding: .5em 1em;
     margin: 0;
     border: 0;
-    color: #684B98;
+    color:#000000; /* #684B98;*/
   }
   #top-nav .nav-menu .nav-item > a:hover {
     color: white;
@@ -1934,10 +1946,10 @@ body.files .item-file {
   }
   #top-nav .nav-menu .nav-item > a:focus,
   #top-nav .nav-menu .nav-item > a.open {
-    background-color: #684B98;
+    background-color:#000000; /* #684B98;*/
   }
   #top-nav .nav-menu .nav-item > a.open {
-    background-color: #684B98;
+    background-color:#000000; /* #684B98;*/
     color: white;
     border-bottom: none;
     z-index: 1;
@@ -1949,7 +1961,7 @@ body.files .item-file {
     padding: 0;
     border: 0;
     margin: 0;
-    background-color: #BE75CB;
+    background-color: #db2929;
     z-index: 2;
     border: 1px solid #6e6e6e;
   }
@@ -1962,7 +1974,7 @@ body.files .item-file {
     background-color: #f7f7f7;
   }
   #top-nav .nav-menu .sub-nav.open .active a {
-    color: #684B98;
+    color:#000000; /* #684B98;*/
   }
   #top-nav .nav-menu .sub-nav.open .active a:hover {
     color: white;
@@ -1974,7 +1986,7 @@ body.files .item-file {
     padding: 0;
   }
   #top-nav .nav-menu .sub-nav.open ul a {
-    color: #684B98;
+    color:#000000; /* #684B98;*/
   }
   #top-nav .nav-menu .sub-nav.open ul a:before {
     content: "\2014\0020";
@@ -1986,7 +1998,7 @@ body.files .item-file {
     padding: 0;
   }
   #top-nav .nav-menu .sub-nav.open li a {
-    color: #684B98;
+    color:#000000; /* #684B98;*/
   }
   #top-nav .nav-menu .sub-nav.open li a:hover {
     background-color: #cf9ad9;
