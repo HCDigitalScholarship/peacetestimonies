@@ -25,7 +25,10 @@ body {
 
 /*attempt to change header font -mh*/
 header {
-  font-family: 'Special Elite';
+        font-family: 'Special Elite';
+	font-size: 23px;
+	font-style: normal;
+	font-variant: normal; 
 }
 
 
@@ -176,6 +179,9 @@ sub {
  */
 img {
   border: 0;
+}
+
+/**
 }
 
 /**
@@ -2098,6 +2104,3 @@ body.files .item-file {
 
   blockquote {
     margin: 10pt 0 0 0;
-    font-style: italic;
-  }
-}
