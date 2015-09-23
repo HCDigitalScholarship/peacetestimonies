@@ -21,3 +21,6 @@
 <hr />
 
 <!-- Link. -->
+<?php echo link_to(
+  get_current_record('item'), 'show', 'View this item'
+); ?>
