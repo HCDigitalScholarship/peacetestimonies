@@ -54,12 +54,15 @@ header,
 hgroup,
 main,
 menu,
-nav,
+/*nav,*/
 section,
 summary {
   display: block;
 }
 
+nav {
+  display:inline-block;
+}
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
@@ -771,17 +774,17 @@ h6 {
 /* -------------------------------------------------------------------------*/
 /* Links */
 a {
-  color:#000000; /* #684B98*/
-  text-decoration: none;
+  color:#db2929; /* #684B98*/
+  text-decoration: underline;
 }
 a:visited {
-  color: #8164b2;
+  color: #db2929;
 }
 a:focus {
   color: #5C3F8D;
 }
 a:hover {
-  color: #c170d0;
+  color: #db2929;
 }
 a:active {
   color: #000000;
@@ -1019,7 +1022,7 @@ a:hover {
   background-color: #eaeaea;
 }
 #top-nav .nav-menu .active {
-  background-color: #8164b2;
+  background-color: #db2929;
 }
 #top-nav .nav-menu .active a {
   color: white;
@@ -1070,7 +1073,7 @@ a:hover {
 #top-nav .sub-nav.open li a:hover {
   color: white;
   text-decoration: none;
-  background-color: #cf9ad9;
+  background-color: #db2929;
 }
 #top-nav .sub-nav.open .active a {
   color: white;
@@ -1134,7 +1137,7 @@ button,
 input[type=submit]:hover,
 button:hover,
 .button:hover {
-  background-color:#000000; /* #684B98;*/
+/*  background-color:#000000; /* #684B98;*/ */
   color: white;
   text-decoration: none;
 }
@@ -1896,7 +1899,7 @@ body.files .item-file {
        navigation item */
   }
   #top-nav .nav-menu .active {
-    background-color: #8164b2;
+    background-color: #db2929;
   }
   #top-nav .nav-menu .active a {
     color: white;
@@ -1925,7 +1928,7 @@ body.files .item-file {
     position: relative;
   }
   #top-nav .nav-menu .nav-item.active {
-    background-color: #8164b2;
+    background-color: #db2929;
   }
   #top-nav .nav-menu .nav-item.active a {
     color: white;
@@ -2001,11 +2004,11 @@ body.files .item-file {
     color:#000000; /* #684B98;*/
   }
   #top-nav .nav-menu .sub-nav.open li a:hover {
-    background-color: #cf9ad9;
+    background-color: #db2929;
     color: white;
   }
   #top-nav .nav-menu .sub-nav.open li a:focus {
-    background-color: #cf9ad9;
+    background-color: #db2929;
     color: white;
   }
 
