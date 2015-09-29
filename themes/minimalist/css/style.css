@@ -1137,14 +1137,12 @@ button,
 input[type=submit]:hover,
 button:hover,
 .button:hover {
-/*  background-color:#000000; /* #684B98;*/ */
-  color: white;
-  text-decoration: none;
+  background-color:#eaeaea; /* #684B98;*/ 
 }
 input[type=submit]:active,
 button:active,
 .button:active {
-  background-color: #db2929;
+  background-color: #eaeaea; /*this is the background text color*/
 }
 
 .button:focus {
